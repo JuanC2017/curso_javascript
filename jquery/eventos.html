@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>eventos en jQuery</title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/eventos.js"></script>
+	<style type="text/css">
+		#caja{
+
+			width: 250px;
+			height: 250px;
+			border: 2px solid black;
+			background: yellow;
+
+		}
+
+		#datos{
+			width: 250px;
+			height: 50px;
+			border: 2px black dashed;
+			margin-top: 10px;
+			display: none;
+			
+		}
+
+		#sigueme{
+			width: 25px;
+			height: 25px;
+			border: solid black 2px;
+			position: absolute;
+			display: block;
+			background: yellow;
+			border-radius: 999px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="sigueme"></div>
+
+	<h2>Practicando eventos en jQuery</h2>
+
+	<div id="caja"></div>
+	<br>
+	<form>
+		<label>Nombre</label>
+		<input type="text" name="nombre" id="nombre">
+		<input type="text"  id="add_link" >
+		<button id="envio" disabled="disabled">Enviar</button>
+	</form>
+
+
+
+	<div id="datos"></div>
+	<br>
+
+	<div id="enlaces">
+
+		<ul id="menu">
+			<li>
+				<a href="www.google.com"></a>
+				
+			</li>
+
+			<li>
+				<a href="www.facebook.com"></a>
+			</li>
+			
+		</ul>
+
+		
+	</div>
+
+</body>
+</html>

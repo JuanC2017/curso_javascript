@@ -1,0 +1,25 @@
+.hora{
+	background-color:  black;
+}
+
+#horaColombia{
+	color: red;
+}
+
+.horaDiv{
+	padding: 25px 50px 75px 100px;
+	background-color: #f9a825;
+	width: 200px;
+	height: 10px;
+	position: relative;
+	left: 450px;
+	
+	
+}
+
+#botonHora{
+	padding: 20px 60px 20px 60px;
+	position: relative;
+	left: 550px;
+	/*bottom: 150px;*/
+}

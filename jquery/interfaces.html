@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>interfaces con jqueryUI</title>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+	<script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/interfaces.js"></script>
+
+	<style type="text/css">
+		.elemento{
+			width: 350px;
+			height: 250px;
+			background-color: lightblue;
+			margin: 10px;
+			float: left;
+		}
+
+		.lista-seleccionable li{
+			width: 80%;
+			padding: 20px;
+			list-style: none;
+			border: 1px solid #ccc;
+			cursor: pointer;
+		}
+
+		.lista-seleccionable ul .iu-selecting {
+			background: #FECA40;
+		}
+
+		.lista-seleccionable ul .iu-selected {
+			background: #F39814; color: white;
+		}
+
+		#elemento-movido{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+
+		#area{
+			width: 300px;
+			height: 300px;
+			border: 1px solid darkgray;
+		}
+
+		#caja-efectos{
+			width: 350px;
+			height: 250px;
+			background-color: #EC7A62;
+			margin: 10px;
+			display: none;
+		}
+
+
+	</style>
+
+</head>
+<body>
+	<h2>Aprendiendo con jQuery UI</h2>
+
+	<h3>Pestañas</h3>
+	<div id="pestanas">
+		<ul>
+			<li><a href="#tabs-1">Pestaña 1</a></li>
+			<li><a href="#tabs-2">Pestaña 1</a></li>
+			<li><a href="#tabs-3">Pestaña 1</a></li>
+			
+		</ul>
+		<div id="tabs-1">
+				Soy la pestaña 1
+			</div>
+			<div id="tabs-2">
+				Soy la pestaña 2
+			</div>
+			<div id="tabs-3">
+				Soy la pestaña 3
+			</div>
+	</div>
+
+	<br>
+	<hr>
+	<br>
+	
+
+	<button id="mostrar-popup">Mostrar popup</button>
+	<br>
+	<br>
+	<div id="popup" style="display: none;"><p> Esto esta lanzado por el boton de lanzar popup</p></div>
+	<br>
+	<br>
+	<hr>
+
+	<br>
+	<h3>Tooltip</h3>
+	<br>
+	<a href="#" title="accede a mis datos con este enlace" id="mis-datos">Mis datos</a>
+	<br>
+	<br>
+	<hr>
+
+	<h3>Calendario</h3>
+	<input type="texto" name="" id="calendario">
+	<br><br>
+	<hr>
+
+	<button id="mostrar">Mostrar efecto</button>
+	<br>
+	<div id="caja-efectos"></div>
+	<br>
+
+	<hr>
+
+	<div id="elemento-movido">
+
+		
+	</div>
+	<br>
+	<div id="area">
+		
+	</div>
+	<hr>
+
+	<br>
+	<ul class="lista-seleccionable">
+		<li>need for speed1</li>
+		<li>need for speed2</li>
+		<li>need for speed3</li>
+		<li>need for speed4</li>
+	</ul>
+<hr>
+	
+	<br>
+	<div class="elemento">
+		Hola soy un elemento de la web 1
+	</div>
+	<div class="elemento">
+		Hola soy un elemento de la web 2
+	</div>
+	<div class="elemento">
+		Hola soy un elemento de la web 3
+	</div>
+
+</body>
+</html>

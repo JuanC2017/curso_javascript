@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>validacion de formulario</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="formulario.js"></script>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+	<!--Formulario con nombre, apellido y edad
+		botom enviar formulario: evento submit
+		mostrar datos por pantalla
+		tener un boton que al darle click nos muestre los datos actuales del formulario
+		validacion del formulario
+	-->
+	<p><h2>Formulario de practica del curso</h2></p>
+
+
+<div class="box">
+	<form action="" method="post" id="formulario" onsubmit="return false;" >
+		<label>Nombre</label><br>
+		<input type="text" name="nombre" id="nombre" ><br>
+		<span id="error_nombre"></span>
+		<label>Apellido</label><br>
+		<input type="text" name="apellido" id="apellido" ><br>
+
+		<label>Edad</label><br>
+		<input type="text" name="edad" id="edad" ><br>
+
+		<input type="submit" name="submit" id="submit" value="enviar">
+	</form>
+</div>
+
+	<div class="box dashed">
+		<p id="informacion">Informacion del usuario</p>
+		<hr>
+
+		<p id="nombre_box">
+			Nombre: <span></span>
+		</p>
+		<p id="apellido_box">
+			Apellido: <span></span>
+		</p>
+		<p id="edad_box">
+			Edad: <span></span>
+		</p>
+	</div>
+
+	
+
+
+
+</body>
+</html>
